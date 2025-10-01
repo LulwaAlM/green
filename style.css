@@ -35,7 +35,7 @@ header {
 }
 
 .hero {
-  background: url('assets/hero.jpg') center/cover no-repeat;
+  background: url('assets/hero.png') center/cover no-repeat;
   height: 80vh;
   color: white;
   display: flex;
@@ -76,3 +76,4 @@ footer {
   text-align: center;
   padding: 20px;
 }
+
