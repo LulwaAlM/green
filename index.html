@@ -3,59 +3,70 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>GreenLeaf Landscaping</title>
-  <link rel="stylesheet" href="style.css" />
+  <title>DM6032</title>
+  <link rel="stylesheet" href="styles.css" />
 </head>
 <body>
 
- 
   <header>
-    <nav class="navbar">
-      <img src="assets/logo.png" alt="GreenLeaf Logo" class="logo">
-      <ul class="nav-links">
-        <li><a href="#about">About</a></li>
-        <li><a href="#services">Services</a></li>
-        <li><a href="#contact">Contact</a></li>
-      </ul>
-    </nav>
+    <h1>Welcome to DM6032</h1>
   </header>
 
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Transform Your Outdoors</h1>
-      <p>Eco-friendly landscaping services for every season.</p>
-      <a href="#contact" class="btn">Get a Quote</a>
-    </div>
-  </section>
-
-  <section id="about">
-    <h2>About Us</h2>
-    <p>GreenLeaf Landscaping is a sustainable landscaping company with over 15 years of experience.</p>
-  </section>
-
-  
-  <section id="services">
-    <h2>Our Services</h2>
+  <nav>
     <ul>
-      <li>Lawn Maintenance</li>
-      <li>Tree Trimming</li>
-      <li>Garden Design</li>
+      <li><a href="#assignment1">Assignment One</a></li>
+      <li><a href="#assignment2">Assignment Two</a></li>
+      <li><a href="#assignment3">Assignment Three</a></li>
     </ul>
+  </nav>
+
+  <section id="tutor-info">
+    <h2>Tutor Information</h2>
+    <table>
+      <tr>
+        <th>Date</th>
+        <th>Time</th>
+        <th>Location</th>
+      </tr>
+      <tr>
+        <td>Monday</td>
+        <td>10 - 11 PM</td>
+        <td>B20.104</td>
+      </tr>
+      <tr>
+        <td>Thursday</td>
+        <td>12 - 1 PM</td>
+        <td>B20.104</td>
+      </tr>
+    </table>
   </section>
 
   <section id="contact">
-    <h2>Contact Us</h2>
-    <p>Email: contact@greenleaf.com</p>
-    <p>Phone: (123) 456-7890</p>
+    <h2>Contact Your Tutor </h2>
+    <form id="contactForm">
+      <label>Your Name<br>
+        <input type="text" id="name" required />
+      </label><br><br>
+
+      <label>Your Email<br>
+        <input type="email" id="email" required />
+      </label><br><br>
+
+      <label>Write your inquires<br>
+        <textarea id="message" rows="6" cols="150" required></textarea>
+      </label><br><br>
+
+      <button type="submit">Submit</button>
+    </form>
   </section>
 
- 
   <footer>
-    <p>&copy; 2025 GreenLeaf Landscaping. All rights reserved.</p>
-  <img src="assets/logo.png" alt="GreenLeaf Logo" class="logo">
+    <p>&copy; 2025 All rights reserved</p>
   </footer>
 
+  <script src="script.js"></script>
 </body>
 </html>
+
 
 
