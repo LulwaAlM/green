@@ -5,11 +5,7 @@ body {
   background-color: #f2f2f2;
 }
 
-header {
-  background-color: lightgrey;
-  padding: 20px;
-  text-align: center;
-}
+
 
 
 #submitBtn img {
@@ -115,6 +111,7 @@ footer {
   padding: 10px;
   margin-top: 40px;
 }
+
 
 
 
