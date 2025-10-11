@@ -14,16 +14,15 @@ header {
 
 
 #submitImage {
-  width: 150px;  /* Adjust as needed */
+  width: 20px;  
   height: auto;
-  cursor: pointer;
   margin-top: 10px;
   border: none;
 }
 
 
 #logo {
-  height: 60px;
+  height: 30px;
   margin-right: 15px;
 }
 
@@ -106,6 +105,7 @@ footer {
   padding: 10px;
   margin-top: 40px;
 }
+
 
 
 
