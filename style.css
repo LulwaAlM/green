@@ -12,11 +12,20 @@ header {
 }
 
 
+#submitBtn img {
+  width: 150px;
+  height: auto;
+  cursor: pointer;
+  display: block;
+  border: none;
+}
 #submitBtn {
-  width: 150px !important;
-  height: auto !important;
+  border: none;
+  padding: 0;
+  background: none;
   cursor: pointer;
 }
+
 
 
 
@@ -105,6 +114,7 @@ footer {
   padding: 10px;
   margin-top: 40px;
 }
+
 
 
 
