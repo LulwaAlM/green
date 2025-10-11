@@ -1,6 +1,6 @@
 
 document.getElementById("contactForm").addEventListener("submit", function (e) {
-  e.preventDefault(); // Prevent the actual form submission
+  e.preventDefault(); 
   alert("Your inquiry has been submitted.");
 })
 
